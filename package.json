@@ -1,0 +1,44 @@
+{
+  "name": "@goodsite/constructor",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Tags rendered elements with their source file and line, so edits made visually on a live page can be applied to the exact place in code.",
+  "exports": {
+    ".": "./src/plugin.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "vite-plugin",
+    "vue",
+    "devtools",
+    "source-mapping",
+    "design"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "vite": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "vite": {
+      "optional": false
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodsitepro/constructor.git"
+  },
+  "homepage": "https://github.com/goodsitepro/constructor#readme",
+  "bugs": {
+    "url": "https://github.com/goodsitepro/constructor/issues"
+  },
+  "author": "Good Site Production"
+}
