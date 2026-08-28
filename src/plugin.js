@@ -125,7 +125,15 @@ export function constructorOverlay(options = {}) {
     },
 
     transformIndexHtml() {
-      const config = { project, endpoint: ENDPOINT, attr, version: VERSION, format: FORMAT }
+      const config = {
+        project,
+        endpoint: ENDPOINT,
+        attr,
+        version: VERSION,
+        format: FORMAT,
+        docsUrl: cabinetUrl ? `${cabinetUrl}/docs` : undefined,
+        cabinetUrl: cabinetUrl ? `${cabinetUrl}/dashboard` : undefined,
+      }
 
       /**
        * The meta tag is the public contract with whatever comes from outside:
