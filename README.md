@@ -15,6 +15,12 @@ Development only. The plugin takes no part in production builds.
 npm i -D @goodsite/constructor
 ```
 
+Until the first npm release, install it from this repository — the import name is the same:
+
+```bash
+npm i -D github:goodsitepro/constructor
+```
+
 ```js
 // vite.config.js
 import constructor from '@goodsite/constructor'
